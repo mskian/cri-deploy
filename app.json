@@ -1,0 +1,6 @@
+{
+    "name": "cricket-api",
+    "description": "Free Live Cricket API.",
+    "repository": "https://github.com/mskian/cricket-api/public",
+    "keywords": ["php", "curl", "json"]
+}

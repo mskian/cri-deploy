@@ -1,0 +1,14 @@
+{
+    "name": "msk/crisan",
+    "description": "Open Source Free Cricket API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Santhosh Veer",
+            "email": "sanweb@protonmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4.0"
+    }
+}
