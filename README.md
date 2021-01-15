@@ -1,5 +1,7 @@
 # Free Cricket API 🏏
 
+![Score Test](https://github.com/mskian/cri-deploy/workflows/Score%20Test/badge.svg)  
+
 Deploy Live Cricket Score API on Heroku and Vercel.  
 
 ## About API 🌐
