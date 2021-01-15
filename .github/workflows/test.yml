@@ -1,0 +1,23 @@
+name: Score Test
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ${{ matrix.operating-system }}
+    strategy:
+      matrix:
+        operating-system: [ ubuntu-18.04, ubuntu-20.04 ]
+        php: [ '7.1', '7.2', '7.3', '7.4', '7.3.3' ]
+    name: PHP ${{ matrix.php }} API Test
+    steps:
+      - uses: actions/checkout@v2.3.4
+      - name: Setup PHP
+        uses: nanasess/setup-php@v3.0.6
+        with:
+          php-version: ${{ matrix.php }}
+      - run: php live.php
