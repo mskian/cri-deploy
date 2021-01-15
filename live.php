@@ -10,10 +10,11 @@ header('Access-Control-Allow-Methods: GET');
 header('Access-Control-Allow-Headers: Access-Control-Allow-Headers,Content-Type,Access-Control-Allow-Methods, Authorization, X-Requested-With');
 header('X-Robots-Tag: noindex, nofollow', true);
 
+require('config.php');
 require('functions.php');
 require('randomagent.php');
 
-$url = 'https://m.cricbuzz.com/live-cricket-scores/31648/4th-test-india-tour-of-australia-2020-21';
+$url = $LIVE_URL;
 $trim = '';
 $match_url = '';
 $msg = [];

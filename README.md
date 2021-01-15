@@ -18,6 +18,8 @@ Learn More about the API Here - <https://github.com/mskian/cricket-api>
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fmskian%2Fcri-deploy)
 
+- Update Live Match URL in `config.php` File
+
 ## Disclaimer 🗃
 
 - This is not an Offical API from Cricbuzz - it's an Unofficial API
