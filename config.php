@@ -1,3 +1,3 @@
 <?php
 
-$LIVE_URL = "https://m.cricbuzz.com/live-cricket-scores/32312/1st-test-west-indies-tour-of-bangladesh-2021";
+$LIVE_URL = "https://m.cricbuzz.com/live-cricket-scores/32253/1st-test-england-tour-of-india-2021";
