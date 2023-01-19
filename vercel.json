@@ -2,7 +2,7 @@
     "version": 2,
     "cleanUrls": true,
     "builds": [
-        { "src": "*.php", "use": "vercel-php@0.3.1" },
+        { "src": "*.php", "use": "vercel-php@0.5.2" },
         { "src": "*.txt", "use": "@vercel/static" }
       ]
   }
