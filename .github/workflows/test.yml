@@ -11,13 +11,13 @@ jobs:
     runs-on: ${{ matrix.operating-system }}
     strategy:
       matrix:
-        operating-system: [ ubuntu-20.04 ]
-        php: ['7.4']
+        operating-system: [ ubuntu-22.04 ]
+        php: ['7.4', '8.0', '8.1']
     name: PHP ${{ matrix.php }} API Test
     steps:
-      - uses: actions/checkout@v2.3.4
+      - uses: actions/checkout@v3.3.0
       - name: Setup PHP
-        uses: nanasess/setup-php@v3.0.6
+        uses: nanasess/setup-php@v3.3.3
         with:
           php-version: ${{ matrix.php }}
       - run: php live.php
