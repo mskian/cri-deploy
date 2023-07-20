@@ -15,9 +15,9 @@ jobs:
         php: ['7.4', '8.0', '8.1']
     name: PHP ${{ matrix.php }} API Test
     steps:
-      - uses: actions/checkout@v3.3.0
+      - uses: actions/checkout@v3.5.3
       - name: Setup PHP
-        uses: nanasess/setup-php@v3.3.3
+        uses: nanasess/setup-php@v4.0.0
         with:
           php-version: ${{ matrix.php }}
       - run: php live.php
